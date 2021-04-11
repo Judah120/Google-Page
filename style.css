@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body, p{
+    margin: 0;
+    padding: 0;
+}
+
+button, input,p {
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 20%;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav img {
+    height: 20px;
+    border-radius: 50%;
+}
+
+main {
+    width: 50%;
+    margin: 5.0em auto;
+    text-align:center;
+}
+main img {
+    height: 175px;
+    width: 270px;
+}
+main p {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 7em;
+    margin-top: 1em;
+}
+main p a {
+    text-decoration: none;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border-radius: 25px;
+    border: 1px solid rgb(134, 128, 128);
+}
+
+.btn {
+    margin-top: 0.8em;
+}
+
+.btn button {
+    padding: 1em;
+    border: none;
+}
+
+footer {
+    background-color: rgb(230, 236, 236);
+}
+.footer-top {
+    padding: 1em;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-top: 1px solid grey;
+    font-family: 'Montserrat', sans-serif;
+}
+.left a {
+    margin-right: 1em;
+}
+.right a {
+    margin-right: 1em;
+}
